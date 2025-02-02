@@ -1,0 +1,120 @@
+header{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(228, 223, 223);
+}
+
+#github{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#github:hover{
+  scale: 1.1;
+}
+
+#linkedin{
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+#linkedin:hover{
+  scale: 1.1;
+}
+
+#page1{
+  height: calc(100vh - 70px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(228, 223, 223);
+}
+
+#title1{
+  text-align: center;
+  font-size: 100px;
+  padding-top: 200px;
+}
+#title2{
+  text-align: center;
+  margin-top: 5px;
+}
+
+#tecnologias{
+  height: 60px;
+  position: absolute;
+  top: calc(100% - 90px);
+  margin: auto;
+}
+
+
+.tecnologia{
+  margin: 10px;
+}
+
+#page2{
+  position: relative;
+  height: 590px;
+}
+#page2 > img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+#title3{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+#habilidades{
+  display: flex;
+  width: 75%;
+  margin: 50px auto 0px auto;
+  background-color: rgb(228, 223, 223);
+}
+
+.habilidade:first-child{
+  border-right: none;
+}
+.habilidade:last-child{
+  border-left: none;
+}
+
+.habilidade{
+  flex: 1 1 300px;
+  border: 3px solid rgb(211, 208, 208);
+}
+
+.habilidade > div{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.habilidade > div > svg{
+  margin-right: 20px;
+}
+.habilidade > div > p{
+  font-size: 20px;
+}
+
+.habilidade > p{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: 18px;
+  color: rgb(43, 43, 43);
+}
+
+
+#page3{
+  height: 400px;
+  background-color: rgb(228, 223, 223);
+}
