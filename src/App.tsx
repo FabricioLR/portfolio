@@ -11,6 +11,7 @@ import { SiRedux } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiSpringboot } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
+import { SiPhp } from "react-icons/si";
 import './App.css'
 
 function App() {
@@ -22,8 +23,10 @@ function App() {
       </header>
       <main>
         <div id="page1">
-          <h1 id="title1">FabricioLR</h1>
-          <h2 id="title2">Front & Back End Developer</h2>
+          <div>
+            <h1 id="title1">FabricioLR</h1>
+            <h2 id="title2">Front & Back End Developer</h2>
+          </div>
           <div id="tecnologias">
             <FaReact fontSize={35} className="tecnologia"/>
             <FaNodeJs fontSize={35} className="tecnologia"/>
@@ -35,16 +38,17 @@ function App() {
             <SiSpringboot fontSize={35} className="tecnologia"/>
             <SiSequelize fontSize={35} className="tecnologia"/>
             <SiExpo fontSize={35} className="tecnologia"/>
+            <SiPhp fontSize={35} className="tecnologia"/>
           </div>
         </div>
         <div id="page2">
-          <img src="image2.jpg" alt="" />
+          
           <h1 id="title3">Habilidades</h1>
           <div id="habilidades">
             <div className="habilidade">
               <div>
                 <FaComputer fontSize={50}/>
-                <p>Backend Dev NodeJS, Java</p>
+                <p>Backend Dev NodeJS, Java e PHP</p>
               </div>
               <p>Programação funcional e orientada a objetos.</p>
             </div>
