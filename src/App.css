@@ -42,12 +42,14 @@ header{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: rgb(228, 223, 223);
+  /*background-color: rgb(228, 223, 223);
+  background-color: #233237;*/
 }
 
 #github{
   margin-right: 20px;
   cursor: pointer;
+  color: white;
 }
 
 #github:hover{
@@ -57,6 +59,7 @@ header{
 #linkedin{
   margin-right: 100px;
   cursor: pointer;
+  color: white;
 }
 
 #linkedin:hover{
@@ -69,18 +72,21 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(228, 223, 223);
+  /*background-color: rgb(228, 223, 223);
+  background-color: #223237;*/
   justify-content: space-between;
 }
 
 #title1{
   text-align: center;
   font-size: 100px;
-  padding-top: 200px;
+  padding-top: 170px;
+  color: white;
 }
 #title2{
   text-align: center;
   margin-top: 5px;
+  color: rgb(185, 185, 185);
 }
 
 #tecnologias{
@@ -93,6 +99,10 @@ header{
 
 .tecnologia{
   margin: 10px;
+  color: rgb(110, 110, 110);
+}
+.tecnologia:hover{
+  scale: 1.1;
 }
 
 #page2{
@@ -100,7 +110,7 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d5d2d2;
+  background-color: #345059;
 }
 #page2 > img{
   position: absolute;
@@ -113,6 +123,7 @@ header{
   text-align: center;
   font-size: 40px;
   padding-top: 100px;
+  color: rgb(185, 185, 185);
 }
 
 #habilidades{
@@ -131,8 +142,9 @@ header{
 
 .habilidade{
   flex: 1 1 300px;
-  border: 3px solid rgb(211, 208, 208);
+  border: 3px solid #3d5b64;
   margin: -1px -1px -1px -1px;
+  background-color: #41646F;
 }
 
 .habilidade > div{
@@ -143,9 +155,11 @@ header{
 
 .habilidade > div > svg{
   margin-right: 20px;
+  color: white;
 }
 .habilidade > div > p{
   font-size: 20px;
+  color: white;
 }
 
 .habilidade > p{
@@ -153,11 +167,11 @@ header{
   margin: auto;
   margin-bottom: 40px;
   font-family: 18px;
-  color: rgb(43, 43, 43);
+  color: #c4c4c4;
 }
 
 
 #page3{
   height: 400px;
-  background-color: rgb(228, 223, 223);
+  background-color: rgb(43, 65, 72);
 }
