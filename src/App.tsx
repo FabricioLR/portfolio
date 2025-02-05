@@ -17,6 +17,7 @@ import './App.css'
 function App() {
   return (
     <>
+      <div id="background"></div>
       <header>
           <FaGithubSquare id="github" fontSize={50} onClick={() => window.open("https://github.com/FabricioLR", "_blank")}/>
           <FaLinkedin id="linkedin" fontSize={50} onClick={() => window.open("https://www.linkedin.com/in/fabr%C3%ADcio-longo-de-ara%C3%BAjo-70321a228/", "_blank")}/>
@@ -84,7 +85,7 @@ function App() {
               <img src="" alt="" onClick={() => window.open("https://github.com/FabricioLR/Chat", "_blank")}/>
               <div id="project2description">
                 <h2>Chat</h2>
-                <p>Site e aplicativo de troca de mensagens feito em React - React Native que permite aos
+                <p>Site para troca de mensagens feito em React, Redux e Typescript que permite aos
                 usuários enviarem mensagens em tempo real por meio do uso de Web Sockets.</p>
               </div>
             </div>
@@ -92,7 +93,24 @@ function App() {
         </div>
       </main>
       <footer>
-        
+        <h1>Envie-me uma mensagem</h1>
+        <form action="https://formspree.io/f/xqaelaew" method="POST">
+          <div>
+            <label>
+              Seu nome:
+              <input type="text" name="name" required/>
+            </label>
+            <label>
+              Email:
+              <input type="email" name="email" required/>
+            </label>
+          </div>
+          <label>
+            Sua Mensagem:
+            <textarea name="message" minLength={30} maxLength={1000}></textarea>
+          </label>
+          <button type="submit">Enviar</button>
+        </form>
       </footer>
     </>
   )
