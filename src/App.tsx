@@ -42,7 +42,6 @@ function App() {
           </div>
         </div>
         <div id="page2">
-          
           <h1 id="title3">Habilidades</h1>
           <div id="habilidades">
             <div className="habilidade">
@@ -69,9 +68,32 @@ function App() {
           </div>
         </div>
         <div id="page3">
-
+          <div id="projects">
+            <div id="projectstitle">
+              <h1>Meus Projetos</h1>
+            </div>
+            <div id="project1">
+              <img src="/project1.png" alt=""  onClick={() => window.open("https://github.com/FabricioLR/Estetica", "_blank")}/>
+              <div id="project1description">
+                <h2>Estética</h2>
+                <p>Site de estética feminina. Permite visualizar serviços de uma loja fictícia. Utilizando-se de
+                Javascript e PHP.</p>
+              </div>
+            </div>
+            <div id="project2">
+              <img src="" alt="" onClick={() => window.open("https://github.com/FabricioLR/Chat", "_blank")}/>
+              <div id="project2description">
+                <h2>Chat</h2>
+                <p>Site e aplicativo de troca de mensagens feito em React - React Native que permite aos
+                usuários enviarem mensagens em tempo real por meio do uso de Web Sockets.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
+      <footer>
+        
+      </footer>
     </>
   )
 }

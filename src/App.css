@@ -172,6 +172,80 @@ header{
 
 
 #page3{
-  height: 400px;
   background-color: rgb(43, 65, 72);
+  display: flex;
+  justify-content: center;
+}
+
+#projects{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#projectstitle{
+  grid-area: projecttitle;
+  display: flex;
+  align-items: center;
+}
+
+#projectstitle > h1{
+  color: white;
+  font-size: 80px;
+}
+
+#project1{
+  grid-area: project1;
+}
+
+#project1 img{
+  width: 100%;
+  height: 250px;
+  padding: 30px 0px 10px 0px;
+  cursor: pointer;
+}
+#project1 img:hover{
+  scale: 1.01;
+}
+
+#project1description h2{
+  color: white;
+}
+
+#project1description p{
+  color: #c4c4c4;
+  padding-left: 5px;
+  padding-bottom: 30px;
+}
+
+#project2{
+  grid-area: project2;
+}
+
+#project2 img{
+  width: 100%;
+  height: 350px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+#project2 img:hover{
+  scale: 1.01;
+}
+
+#project2description h2{
+  color: white;
+}
+
+#project2description p{
+  color: #c4c4c4;
+  padding-left: 5px;
+  padding-bottom: 30px;
+}
+
+#projects{
+	grid-template-areas:
+		"projecttitle project1"
+		"project2 project2"
+		;
 }
