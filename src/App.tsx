@@ -82,10 +82,10 @@ function App() {
               </div>
             </div>
             <div id="project2">
-              <img src="" alt="" onClick={() => window.open("https://github.com/FabricioLR/Chat", "_blank")}/>
+              <img src="/project2.png" alt="" onClick={() => window.open("https://github.com/FabricioLR/Chat-front", "_blank")}/>
               <div id="project2description">
                 <h2>Chat</h2>
-                <p>Site para troca de mensagens feito em React, Redux e Typescript que permite aos
+                <p>Site para troca de mensagens feito em React, e Typescript que permite aos
                 usuários enviarem mensagens em tempo real por meio do uso de Web Sockets.</p>
               </div>
             </div>
