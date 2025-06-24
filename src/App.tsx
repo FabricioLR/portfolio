@@ -13,8 +13,12 @@ import { SiSpringboot } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
 import './App.css'
+import { ReactTyped } from "react-typed";
+import { useState } from "react";
 
 function App() {
+  const [completed, setCompleted] = useState(false);
+
   return (
     <>
       <div id="background"></div>
@@ -25,8 +29,13 @@ function App() {
       <main>
         <div id="page1">
           <div>
-            <h1 id="title1">FabricioLR</h1>
-            <h2 id="title2">Front & Back End Developer</h2>
+            <h1 id="title1"><ReactTyped strings={["FabricioLR"]} typeSpeed={150} showCursor={false} onComplete={() => {setCompleted(true)}} /></h1>
+            {
+              completed ?
+                <h2 id="title2"><ReactTyped strings={["Front - Back End Developer"]} typeSpeed={150} /></h2>
+              :
+                null
+            }
           </div>
           <div id="tecnologias">
             <FaReact fontSize={35} className="tecnologia"/>

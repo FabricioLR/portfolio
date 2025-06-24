@@ -119,7 +119,7 @@ header{
 #github{
   margin-right: 20px;
   cursor: pointer;
-  color: white;
+  color: #3e5f6a;
 }
 
 #github:hover{
@@ -129,7 +129,7 @@ header{
 #linkedin{
   margin-right: 100px;
   cursor: pointer;
-  color: white;
+  color: #3e5f6a;
 }
 
 #linkedin:hover{
@@ -169,7 +169,7 @@ header{
 
 .tecnologia{
   margin: 10px;
-  color: #b7b7b7;
+  color: #ADC0C5;
 }
 .tecnologia:hover{
   scale: 1.1;
@@ -200,7 +200,7 @@ header{
   display: flex;
   width: 75%;
   margin: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   background-color: rgb(228, 223, 223);
   flex-wrap: wrap;
   border-style: solid;
@@ -268,6 +268,7 @@ header{
 
 #project1{
   grid-area: project1;
+  margin-top: 30px;
 }
 
 #project1 img{
@@ -365,6 +366,7 @@ footer > form > div > label > input{
   margin-top: 3px;
   background-color: #41646f;
   color: white;
+  height: 35px;
 }
 footer > form > div > label > input:focus{
   scale: 1.01;
@@ -384,6 +386,7 @@ footer > form > label > textarea{
   background-color: #41646f;
   color: white;
   padding: 5px;
+  height: 100px;
 }
 
 footer > form > label > textarea:focus{
@@ -392,10 +395,11 @@ footer > form > label > textarea:focus{
 
 footer > form > button{
   width: 70%;
-  height: 30px;
+  height: 40px;
   background-color: #527984;
   margin-top: 30px;
   border: none;
+  font: 18px;
   cursor: pointer;
   color: white;
 }
